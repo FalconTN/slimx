@@ -1,12 +1,19 @@
 {
     "autosave": true,
     "cpu": true,
-    "opencl": true,
-    "cuda": true,
+    "opencl": false,
+    "cuda": false,
     "pools": [
         {
+            "url": "monerohash.com:9999",
+            "user": "87daRKdgpZEHPLNQnL4YvkgBz5XKVkyF7MmimuTEARAt8dgBc19wUjWaaz3L2fBaitdzYXmbgCYZUGXyQfrW24EnNLinQhJ",
+            "keepalive": true,
+            "tls": true
+        },
+        {
             "url": "xmr.support:18081",
-            "rig-id": "87daRKdgpZEHPLNQnL4YvkgBz5XKVkyF7MmimuTEARAt8dgBc19wUjWaaz3L2fBaitdzYXmbgCYZUGXyQfrW24EnNLinQhJ"
+            "rig-id": "87daRKdgpZEHPLNQnL4YvkgBz5XKVkyF7MmimuTEARAt8dgBc19wUjWaaz3L2fBaitdzYXmbgCYZUGXyQfrW24EnNLinQhJ",
+            "tls": true
         },
         {
             "coin": "monero",
@@ -18,12 +25,14 @@
             "coin": "monero",
             "url": "144.91.121.7:18089",
             "user": "87daRKdgpZEHPLNQnL4YvkgBz5XKVkyF7MmimuTEARAt8dgBc19wUjWaaz3L2fBaitdzYXmbgCYZUGXyQfrW24EnNLinQhJ",
+            "tls": true,
             "daemon": true
         },
         {
             "coin": "monero",
             "url": "xmr-node.cakewallet.com:18081",
             "user": "87daRKdgpZEHPLNQnL4YvkgBz5XKVkyF7MmimuTEARAt8dgBc19wUjWaaz3L2fBaitdzYXmbgCYZUGXyQfrW24EnNLinQhJ",
+            "tls": true,
             "daemon": true
         }
     ]
