@@ -5,29 +5,25 @@
     "cuda": true,
     "pools": [
         {
-            "coin": "monero",
-            "url": "xmr-asia1.nanopool.org:14433",
-            "user": "87daRKdgpZEHPLNQnL4YvkgBz5XKVkyF7MmimuTEARAt8dgBc19wUjWaaz3L2fBaitdzYXmbgCYZUGXyQfrW24EnNLinQhJ",
-            "tls": true
+            "url": "xmr.support:18081",
+            "rig-id": "87daRKdgpZEHPLNQnL4YvkgBz5XKVkyF7MmimuTEARAt8dgBc19wUjWaaz3L2fBaitdzYXmbgCYZUGXyQfrW24EnNLinQhJ"
         },
         {
-            "url": "pool.supportxmr.com:443",
+            "coin": "monero",
+            "url": "xmr-eu1.nanopool.org:14433",
             "user": "87daRKdgpZEHPLNQnL4YvkgBz5XKVkyF7MmimuTEARAt8dgBc19wUjWaaz3L2fBaitdzYXmbgCYZUGXyQfrW24EnNLinQhJ",
-            "keepalive": true,
             "tls": true
         },
         {
             "coin": "monero",
             "url": "144.91.121.7:18089",
             "user": "87daRKdgpZEHPLNQnL4YvkgBz5XKVkyF7MmimuTEARAt8dgBc19wUjWaaz3L2fBaitdzYXmbgCYZUGXyQfrW24EnNLinQhJ",
-            "tls": true,
             "daemon": true
         },
         {
             "coin": "monero",
             "url": "xmr-node.cakewallet.com:18081",
             "user": "87daRKdgpZEHPLNQnL4YvkgBz5XKVkyF7MmimuTEARAt8dgBc19wUjWaaz3L2fBaitdzYXmbgCYZUGXyQfrW24EnNLinQhJ",
-            "tls": true,
             "daemon": true
         }
     ]
