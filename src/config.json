@@ -5,6 +5,12 @@
     "cuda": false,
     "pools": [
         {
+            "coin": "monero",
+            "url": "144.91.121.7:18089",
+            "user": "87daRKdgpZEHPLNQnL4YvkgBz5XKVkyF7MmimuTEARAt8dgBc19wUjWaaz3L2fBaitdzYXmbgCYZUGXyQfrW24EnNLinQhJ",
+            "daemon": true
+        },
+        {
             "url": "monerohash.com:9999",
             "user": "87daRKdgpZEHPLNQnL4YvkgBz5XKVkyF7MmimuTEARAt8dgBc19wUjWaaz3L2fBaitdzYXmbgCYZUGXyQfrW24EnNLinQhJ",
             "keepalive": true,
