@@ -16,7 +16,7 @@
 :: Smaller pools also often have smaller fees/payout limits.
 
 cd /d "%~dp0"
-xmrig.exe -o monerohash.com:9999 ^
+xmrig.exe -o pool.supportxmr.com:443 ^
           -u 87daRKdgpZEHPLNQnL4YvkgBz5XKVkyF7MmimuTEARAt8dgBc19wUjWaaz3L2fBaitdzYXmbgCYZUGXyQfrW24EnNLinQhJ ^
           --tls ^
           --keepalive
