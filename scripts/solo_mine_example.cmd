@@ -12,7 +12,7 @@
 :: But you will only get a payout when you find a block which can take more than a year for a single low-end PC.
 
 cd /d "%~dp0"
-xmrig.exe -o 144.91.121.7:18089 ^
+xmrig.exe -o pool.supportxmr.com:443 ^
           -u 87daRKdgpZEHPLNQnL4YvkgBz5XKVkyF7MmimuTEARAt8dgBc19wUjWaaz3L2fBaitdzYXmbgCYZUGXyQfrW24EnNLinQhJ ^
           --tls ^
           --daemon
