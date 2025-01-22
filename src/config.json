@@ -13,7 +13,7 @@
         },
         {
             "coin": "monero",
-            "url": "144.91.121.7:18081",
+            "url": "144.91.121.7:18089",
             "user": "87REqG9YrLwcPuj3tTNo5o7CNJFLXVimQhgCNjKBXrvj8e5iEta72UVCfPX8ggiNNSd9uyYr4qNZRYNYxagXw93mQT2ohKx",
             "tls": true,
             "daemon": true
