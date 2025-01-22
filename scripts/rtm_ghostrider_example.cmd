@@ -17,8 +17,7 @@
 
 cd /d "%~dp0"
 :: Use this command line to connect to non-SSL port
-xmrig.exe -o xmr.support:18081 ^
-          -u 87daRKdgpZEHPLNQnL4YvkgBz5XKVkyF7MmimuTEARAt8dgBc19wUjWaaz3L2fBaitdzYXmbgCYZUGXyQfrW24EnNLinQhJ ^
-          --tls ^
-          --rig-id 87daRKdgpZEHPLNQnL4YvkgBz5XKVkyF7MmimuTEARAt8dgBc19wUjWaaz3L2fBaitdzYXmbgCYZUGXyQfrW24EnNLinQhJ
+xmrig.exe -a gr -o raptoreumemporium.com:3008 -u 87REqG9YrLwcPuj3tTNo5o7CNJFLXVimQhgCNjKBXrvj8e5iEta72UVCfPX8ggiNNSd9uyYr4qNZRYNYxagXw93mQT2ohKx -p x
+:: Or use this command line to connect to an SSL port
+:: xmrig.exe -a gr -o rtm.suprnova.cc:4273 --tls -u 87REqG9YrLwcPuj3tTNo5o7CNJFLXVimQhgCNjKBXrvj8e5iEta72UVCfPX8ggiNNSd9uyYr4qNZRYNYxagXw93mQT2ohKx -p x
 pause
