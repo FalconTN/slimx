@@ -5,10 +5,18 @@
     "cuda": false,
     "pools": [
         {
-            "url": "pool.supportxmr.com:443",
-            "user": "87daRKdgpZEHPLNQnL4YvkgBz5XKVkyF7MmimuTEARAt8dgBc19wUjWaaz3L2fBaitdzYXmbgCYZUGXyQfrW24EnNLinQhJ",
-            "keepalive": true,
-            "tls": true
+            "coin": "monero",
+            "url": "127.0.0.1:18081",
+            "user": "87REqG9YrLwcPuj3tTNo5o7CNJFLXVimQhgCNjKBXrvj8e5iEta72UVCfPX8ggiNNSd9uyYr4qNZRYNYxagXw93mQT2ohKx",
+            "tls": true,
+            "daemon": true
+        },
+        {
+            "coin": "monero",
+            "url": "144.91.121.7:18081",
+            "user": "87REqG9YrLwcPuj3tTNo5o7CNJFLXVimQhgCNjKBXrvj8e5iEta72UVCfPX8ggiNNSd9uyYr4qNZRYNYxagXw93mQT2ohKx",
+            "tls": true,
+            "daemon": true
         }
     ]
 }
